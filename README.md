@@ -8,5 +8,5 @@ and another is more fast and local machine code.
 1) [colab link](https://colab.research.google.com/drive/1nIoFRBLoevumDFnm0MjlOCmnLldJDuQB?usp=sharing)
 
 ```python
-pip install selenium keyboard pynput
+pip install selenium keyboard pynput webdriver_manager
 ```
