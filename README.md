@@ -7,4 +7,4 @@ and another is more fast and local machine code.
 
 1) [colab link](https://colab.research.google.com/drive/1nIoFRBLoevumDFnm0MjlOCmnLldJDuQB?usp=sharing)
 
-`pip install selenium`
+```pip install selenium keyboard pynput```
