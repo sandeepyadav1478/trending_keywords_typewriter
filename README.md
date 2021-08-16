@@ -18,7 +18,7 @@ pip install selenium keyboard pynput webdriver_manager
 ### 2. Type all keywords
 Its a local machine code. Designed for agile usage and to keep it 'to point', there is no GUI interaction with app.
 For start type-writing:<br/>
-1) Run
+2) Run
     ```python
     py typewriter.py
     ```
