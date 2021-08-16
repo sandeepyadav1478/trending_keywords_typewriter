@@ -19,14 +19,14 @@ pip install selenium keyboard pynput webdriver_manager
 Its a local machine code. Designed for agile usage and to keep it 'to point', there is no GUI interaction with app.
 For start type-writing:<br/>
 1) Change following in code:
-    ```
-    #-----------------------------
-    keywords_import  = "assets/google_trend_keywords.csv"
-    limit_words = 10
-    exit_key = "esc"
-    delay = 0   #in seconds
-    #----------------------------
-    ```
+  >
+  > #-----------------------------
+  > keywords_import  = "assets/google_trend_keywords.csv"
+  > limit_words = 10
+  > exit_key = "esc"
+  > delay = 0   #in seconds
+  > #----------------------------
+  
 3) Run
     ```python
     py typewriter.py
