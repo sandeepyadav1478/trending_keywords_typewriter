@@ -1,6 +1,6 @@
 # Swinging Keywords Writer
 
-### 1. Scrap data from google
+### - Scrap data from google
 
 There are 2 files to do so, 1st is google-colab
 and another is more fast and local machine code.
@@ -15,7 +15,7 @@ and another is more fast and local machine code.
 pip install selenium keyboard pynput webdriver_manager
 ```
 
-### 2. Type all keywords
+### - Type all keywords
 Its a local machine code. Designed for agile usage and to keep it 'to point', there is no GUI interaction with app.
 For start type-writing:<br/>
 1) Change following in code:
