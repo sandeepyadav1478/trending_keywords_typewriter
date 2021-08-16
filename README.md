@@ -31,8 +31,9 @@ For start type-writing:<br/>
   > delay = 0   #in seconds
   >
   > #----------------------------
+  I recommend that let delay remain 0, coz due to multiprocessing for force shutdown code already writing in slow speed.
   
-3) Run
+2) Run
     ```python
     py typewriter.py
     ```
@@ -40,4 +41,4 @@ For start type-writing:<br/>
     ```python 
     python typewriter.py
     ```
-2) 
+3) Select option as mentioned in command palette
