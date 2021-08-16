@@ -32,7 +32,7 @@ For start type-writing:<br/>
   >
   > #----------------------------
   > 
-  I recommend that let delay remain 0, coz due to multiprocessing for force shutdown code already writing in slow speed.
+  I recommend that let delay remain 0, coz due to multiprocessing for force shutdown, code already writing in slow speed.
   
 2) Run
     ```python
