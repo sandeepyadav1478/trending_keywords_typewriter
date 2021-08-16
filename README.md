@@ -31,6 +31,7 @@ For start type-writing:<br/>
   > delay = 0   #in seconds
   >
   > #----------------------------
+  > 
   I recommend that let delay remain 0, coz due to multiprocessing for force shutdown code already writing in slow speed.
   
 2) Run
