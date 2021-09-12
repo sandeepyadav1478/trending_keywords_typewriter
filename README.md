@@ -46,4 +46,4 @@ For start type-writing:<br/>
 
 ### Execution Sample
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://github.com/sandeepyadav1478/trending_keywords_typewriter/blob/main/additional/My%20Video1.gif?raw=true)
