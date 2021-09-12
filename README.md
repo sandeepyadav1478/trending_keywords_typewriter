@@ -43,3 +43,5 @@ For start type-writing:<br/>
     python typewriter.py
     ```
 3) Select option as mentioned in command palette
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
