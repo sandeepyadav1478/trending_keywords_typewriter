@@ -44,4 +44,6 @@ For start type-writing:<br/>
     ```
 3) Select option as mentioned in command palette
 
+### Execution Sample
+
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
