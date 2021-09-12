@@ -12,7 +12,7 @@ from packages.winmsg import balloon_tip
 
 #-----------------------------
 keywords_import  = "assets/google_trend_keywords.csv"
-limit_words = 10
+limit_words = 5
 exit_key = "esc"
 delay = 0   #in seconds
 #----------------------------
@@ -29,7 +29,7 @@ def trigger():
             break
 
 def writer():
-    global counter,br_key
+    global counter,br_key, limit_words
     if path.isfile(keywords_import) == False:
         print("Can't find file, Please provide a clear way.")
         os._exit(0)
@@ -46,19 +46,25 @@ def writer():
             #break key
             br_key = break_key()
             print("-----------------\n")
+            #keywords count
+            try:
+                limit_words = int(input("Keywords limit [Default is "+str(limit_words)+",'0' means unlimited]: "))
+            except:
+                print("Provide a numeric numbers of keywords.")
             # switching window
             switcher()
             balloon_tip("Select Window","Please select any window for auto typing before it start typing.",5,False)
             print("-----------------\n")
             #Exit key
-            print("\n************\nExit key:",exit_key,"\n************")
+            print("\n************\nExit key: ",exit_key,"\n************")
             # starting count down
             balloon_tip("Final Warning","Please confirm window for typing, otherwise u'll face some trouble.",8,True)
             # starting typing
             kc = Controller()
             for i in list_of_key:
                 if aborted or counter > limit_words:
-                    break
+                    if limit_words != 0:
+                        break
                 kc.type(i[0])
                 kc.press(br_key)
                 counter += 1
